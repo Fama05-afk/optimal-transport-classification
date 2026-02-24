@@ -35,7 +35,7 @@ The log transformation reduces the influence of large distances and improves num
 
 | Method | Description | Computation time | Accuracy |
 |---|---|---|---|
-| **EMD** (Earth Mover's Distance) | Exact solution via linear programming | ~600s | — |
+| **EMD** (Earth Mover's Distance) | Exact solution via linear programming | ~600s | **92.32%** |
 | **Sinkhorn** | Regularized OT (entropy regularization ε=0.04) | ~23s | **93.66%** |
 
 ---
